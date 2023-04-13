@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-weight: bold;
 }
 header{
     height: 10vh;
@@ -90,3 +89,31 @@ p{
     font-size:2.5rem;
     margin-top:2rem;
 }
+
+/*inizio sezione due*/
+
+.contenitore-sezione-due{
+    padding-top: 7rem;
+    margin:0 auto;
+    width: 50%;
+    height:50vh;
+
+}
+h2{
+    margin-bottom:2rem;
+    font-size:40px;
+    font-weight: bold;
+    text-align: left;
+    font-family:'Open Sans', sans-serif;
+}
+input{
+    font-size:0.85rem;
+}
+.Fatturazioneannuale{
+    margin-left:2.5rem;
+    margin-right:0.25rem;
+}
+.fatturazionemensile{
+    margin-right:0.25rem;
+}
+    
