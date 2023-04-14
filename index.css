@@ -408,3 +408,17 @@ input{
     padding:1rem;
     font-weight: bold;
 }
+
+
+/*INIZIO SEZIONE SETTE*/
+.contenitore-sezione-sette{
+    margin:0 auto;
+    padding-top:5rem;
+    width: 60%;
+    height:100%;
+}
+.sezione-sette{
+    height:30vh;
+    background-color: #B4D0E7;
+    color:#61082B;
+}
