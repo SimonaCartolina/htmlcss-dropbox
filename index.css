@@ -18,9 +18,9 @@ header{
     justify-content: space-between;
 }
 li{
-    list-style: none;
+    list-style:none;
 }
-li header{
+header li{
     list-style: none;
     margin-right:1rem;
     color:grey;
@@ -86,8 +86,8 @@ p{
 }
 
 #arrow{
-    font-size:2.5rem;
-    margin-top:2rem;
+    font-size:3rem;
+    margin-top:5.5rem;
 }
 
 .inizia{
@@ -240,20 +240,26 @@ input{
 
 /*SEZIONE QUATTRO*/
 
-.sezione-quattro{
+.container-sezione-quattro{
     width: 60%;
     height:100%;
-    display:flex;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+.titoloquattro{
+    width: 60%;
+    height:100%;
+    margin:0 auto;
+
 }
 
-.container-section-four{
-    margin:0 auto;
-    width: calc(100% / 3 -3rem);
+.row{
+    display:flex;
+    flex-direction:row;
     margin-right:1rem;
-}
-.marginauto{
-    margin:0 auto;
-    background-color: ;
+    background-color: yellow;
+    width:30%;
+    height:50%;
 }
 .immagini{
     object-fit: cover;
