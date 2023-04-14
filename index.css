@@ -13,7 +13,8 @@ header{
     padding: 1.8em 1em 3em 1em;
     font-size: 0.85rem;
 }
-.flex{
+
+header .flex{
     display:flex;
     justify-content: space-between;
 }
@@ -203,6 +204,8 @@ input{
     color:grey;
 }
 
+
+
 /*SEZIONE TRE*/
 
 
@@ -237,6 +240,8 @@ input{
     height: 100%;
     width: 100%;
 }
+
+
 
 /*SEZIONE QUATTRO*/
 
@@ -276,9 +281,81 @@ input{
 .sezione-cinque{
     margin-top:8.5rem;
 }
+
 .contenitore-sezione-cinque{
     width: 60%;
     height:100%;
     margin:0 auto;
     padding-right:20rem;
+}
+
+/*SEZIONE SEI*/
+
+.sezione-sei{
+    margin-top:7rem;
+}
+
+.contenitore-quadrato{
+    width:500px;
+}
+
+.contenitore-quadrato-grande{
+    width:500px;
+    height:500px;
+    background-color: blue;
+}
+
+.quadrato-uno{
+    width:250px;
+    height:250px;
+    background-color: aquamarine;
+}
+
+.quadrato-due{
+    width:250px;
+    height:250px;
+    background-color: yellow;
+}
+.quadrato-tre{
+    width:250px;
+    height:250px;
+    background-color: red;
+}
+.quadrato-quattro{
+    width:250px;
+    height:250px;
+    background-color: purple;
+}
+
+.quadrato-cinque{
+    width:250px;
+    height:250px;
+    background-color:pink;
+}
+
+.quadrato-sei{
+    width:250px;
+    height:250px;
+    background-color:yellowgreen;
+}
+
+.quadrato-sette{
+    width:250px;
+    height:250px;
+    background-color:brown;
+}
+
+.quadrato-otto{
+    width:250px;
+    height:250px;
+    background-color:black;
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
+.margin-auto{
+    margin:0 auto;
 }
