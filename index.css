@@ -237,3 +237,26 @@ input{
     height: 100%;
     width: 100%;
 }
+
+/*SEZIONE QUATTRO*/
+
+.sezione-quattro{
+    width: 60%;
+    height:100%;
+    display:flex;
+}
+
+.container-section-four{
+    margin:0 auto;
+    width: calc(100% / 3 -3rem);
+    margin-right:1rem;
+}
+.marginauto{
+    margin:0 auto;
+    background-color: ;
+}
+.immagini{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
