@@ -206,7 +206,7 @@ input{
 /*SEZIONE TRE*/
 
 
-.sectionthree{
+.sezione-tre{
     margin-top: 7rem;
 }
 
@@ -268,4 +268,17 @@ input{
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+/*SEZIONE CINQUE*/
+
+
+.sezione-cinque{
+    margin-top:8.5rem;
+}
+.contenitore-sezione-cinque{
+    width: 60%;
+    height:100%;
+    margin:0 auto;
+    padding-right:20rem;
 }
