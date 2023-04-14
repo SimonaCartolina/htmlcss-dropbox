@@ -25,7 +25,7 @@ li{
 h1{
     text-align: left;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 70px;
     font-family: 'Anton', sans-serif;
 }
 p{
@@ -54,29 +54,33 @@ p{
 }
 
 .contenitore-due{
-    width:calc(100% - 650px);
+    width:calc(100% - 400px);
     margin:0 auto;
+    position:relative;
+    top:3.5rem;
+    left:3rem;
 }
 
 .contenitore-uno{
-    width: calc(100% - 650px);
+    width: calc(100% - 400px);
     height: calc(100% - 316px);
     margin: 0 auto;
     margin-bottom:3rem;
-    padding-top:4rem;
+    position:relative;
+    top:3rem;
+    left:3rem;
 }
 
 
 .box1{
-    width: 40%;
+    width: 28%;
     text-align: left;
+    position:relative;
+    bottom:1.9rem;
 }
 
 .box2{
     width:70%;
-    position:relative;
-    top:3rem;
-    left:3rem;
 }
 
 #immagine-jumbo{
@@ -92,11 +96,16 @@ p{
 
 /*inizio sezione due*/
 
+#sezionedue{
+    height:100vh;
+    background-color: blueviolet;
+}
 .contenitore-sezione-due{
     padding-top: 7rem;
     margin:0 auto;
-    width: 50%;
-    height:50vh;
+    width: 70%;
+    height:100%;
+    background-color: aqua;
 
 }
 h2{
@@ -115,5 +124,11 @@ input{
 }
 .fatturazionemensile{
     margin-right:0.25rem;
+}
+.column{
+    height: 100%;
+    width:20%;
+    border:3px solid grey;
+    background-color: pink;
 }
     
