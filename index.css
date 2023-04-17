@@ -486,10 +486,43 @@ input{
     padding-top:3.5rem;
 }
 
-
-
 .domande{
     padding-bottom:1rem;
     width:95%;
     padding-top:2rem;
+}
+
+
+/*SEZIONE NOVE-FOOTER AEREA*/
+
+
+.sezione-nove{
+    background-color: #000000;
+    margin-top:5rem;
+    height:50vh;
+}
+.contenitore-sezione-nove{
+    padding-top:4rem;
+    display:flex;
+    margin:0 auto;
+    width:60%;
+    color:white;
+}
+.titolo-elenco-footer{
+    font-size:1rem;
+    font-weight: bold;
+}
+.elenco-footer{
+    margin-right:4rem;
+    font-size:0.70rem;
+    width:calc(60% / 5);
+}
+.elenco-footer li{
+    margin-bottom:0.60rem;
+}
+
+hr{
+    margin-top:5rem;
+    margin-bottom:2rem;
+    width:75%;
 }
