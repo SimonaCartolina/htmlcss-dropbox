@@ -417,7 +417,7 @@ input{
     width: 60%;
 }
 .sezione-sette{
-    height:30vh;
+    height:40vh;
     background-color: #B4D0E7;
     color:#61082B;
 }
@@ -436,4 +436,60 @@ input{
 #Porta-Dropbox{
     width:70%;
     margin-right:15rem;
+}
+
+
+/*INIZIO SEZIONE OTTO*/
+
+
+.contenitore-sezione-otto{
+    width: 60%;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    margin:0 auto;
+    font-weight: bold;
+}
+
+
+.titolo{
+    font-size:2rem;
+    padding-top:4rem;
+    padding-bottom:3rem;
+
+}
+
+
+.flexit{
+    border-bottom:1px solid grey;
+    border-top:1px solid grey;
+    display:flex;
+    justify-content: space-between;
+    height:8rem;
+}
+
+
+.flexthem{
+
+    border-bottom:1px solid grey;
+    display:flex;
+    justify-content: space-between;
+    height:8rem;
+
+}
+.domanda-uno{
+    padding-bottom:1rem;
+    width:95%;
+    padding-top:2rem;
+}
+.fa-solid{
+    width:5%;
+    padding-top:3.5rem;
+}
+
+
+
+.domande{
+    padding-bottom:1rem;
+    width:95%;
+    padding-top:2rem;
 }
