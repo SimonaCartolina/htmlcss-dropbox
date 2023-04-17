@@ -415,10 +415,25 @@ input{
     margin:0 auto;
     padding-top:5rem;
     width: 60%;
-    height:100%;
 }
 .sezione-sette{
     height:30vh;
     background-color: #B4D0E7;
     color:#61082B;
+}
+
+.inizia-la-tua-prova-gratuita{
+    background-color: white;
+    color:black;
+    height: 2.5rem;
+    width:19rem;
+    text-align: center;
+    justify-self: center;
+    padding:0.60rem 1rem;
+    font-size:0.90rem;
+}
+
+#Porta-Dropbox{
+    width:70%;
+    margin-right:15rem;
 }
