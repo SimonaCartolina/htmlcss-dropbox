@@ -122,19 +122,28 @@ h2{
 h4{
     font-size: 1.5rem;
     font-weight: bold;
-    padding-bottom:2rem;
+    padding-bottom:0.25rem;
 }
 
 h5{
     font-size:0.90rem;
 }
 
+.secondocontenuto{
+    padding-top:3rem;
+    margin-bottom:1.5rem;
+}
 .contenitore-sezione-due{
     margin-bottom:4rem;
 }
 .flexcolumn .fa-solid{
     margin-right:0.60rem;
     padding-top: 0;
+}
+
+.titolocolonna .fa-solid{
+    padding-top: 0;
+
 }
 .sezionedue{
     padding-top: 7rem;
@@ -146,6 +155,7 @@ h5{
 .last-container-sezionedue{
     border:2px solid lightgrey;
     padding:1.5rem;
+    
 }
 
 .settanta{
@@ -183,12 +193,12 @@ input{
     display: flex;
     flex-direction: column;
     margin-right:calc(25% / 3);
+    margin-bottom:5rem;
     justify-content: center;
     font-size:0.85rem;
     width:100%;
     justify-content: center;
 }
-
 
 .titolocolonna{
     margin-top:1rem;
@@ -201,7 +211,7 @@ input{
 }
 
 .contenutocolonna{
-    height:821.28px;
+    height:900px;
     margin-top:0;
     padding-top: 1rem;
     padding-left: 1.5rem;
@@ -540,5 +550,17 @@ hr{
 }
 
 .promozioni li{
-    margin-bottom:0.70rem;
+    margin-top:1rem;
+}
+
+.acquista{
+    margin-bottom:2.5rem;
+}
+
+.flexcolumn h5 {
+    margin-top:2.5rem;
+}
+
+hr{
+    width:30%;
 }
